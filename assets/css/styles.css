@@ -58,6 +58,8 @@ button { font: inherit; }
 .topbar { background: var(--accent); color: var(--ink); font-size: 14px; font-weight: 700; text-align: center; padding: 10px 16px; }
 .site-header { display: flex; align-items: center; justify-content: space-between; height: 84px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+.logo { height: 48px; width: auto; display: block; }
+.logo--sm { height: 36px; }
 .brand-mark { width: 34px; height: 34px; background: var(--accent); color: var(--ink); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 15px; }
 .brand-name { font-weight: 800; letter-spacing: .5px; line-height: 1.1; }
 .brand-sub { font-size: 12px; color: var(--on-dark-2); }
@@ -242,6 +244,8 @@ button { font: inherit; }
   .hero-grid, .g2, .g3, .book-grid, .booked-grid { grid-template-columns: minmax(0,1fr); gap: 32px; }
   .hero h1 { font-size: 42px; margin-bottom: 16px; }
   .site-header { height: 68px; }
+  .logo { height: 38px; }
+  .logo--sm { height: 32px; }
   .hero-grid { padding-top: 12px; }
   .chip { margin-bottom: 16px; }
   .hero-lede { font-size: 17px; margin-bottom: 22px; }
