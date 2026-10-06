@@ -38,12 +38,19 @@ All settings live in **`assets/js/config.js`**.
 
 UTM parameters and `fbclid` are captured on landing and carried through every step.
 
-## Deploy
+## Deploy on Cloudflare Pages (free plan)
 
-Any static host works. Pick one:
+1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** tab → **Connect to Git**.
+2. Authorize GitHub and pick `maq-financials-contractor-funnel` (private repos work).
+3. Build settings: Framework preset **None**, Build command **empty**, Build output directory **`/`**. Click **Save and Deploy**.
+4. The site goes live at `https://<project>.pages.dev`. Every push to `main` redeploys automatically.
+5. Custom domain: Pages project → **Custom domains** → **Set up a domain**. Free SSL is included.
+
+`_headers` (caching + security headers) is applied automatically by Cloudflare Pages.
+
+Other static hosts work too:
 
 - **Netlify** — drag the folder onto app.netlify.com/drop, or connect this repo. `_headers` sets caching.
-- **Cloudflare Pages** — connect the repo; build command: *none*; output directory: `/`.
 - **Vercel** — import the repo; framework preset: *Other*.
 - **GitHub Pages** — Settings → Pages → deploy from `main` / root. Free GitHub accounts need the repo to be public for this.
 
@@ -70,6 +77,6 @@ assets/js/app.js      Pixel, UTM capture, shared storage
 assets/js/apply.js    Qualifier logic, validation, webhook
 assets/js/book.js     Calendly prefill + Schedule event
 assets/js/booked.js   Booked time, .ics / Google Calendar, checklist
-assets/img/           Headshot (WebP inside an SVG wrapper), favicon — add og.jpg (social preview)
+assets/img/           Logo (logo-on-dark.svg, logo-on-light.svg, mark.svg), favicon, headshot (WebP inside an SVG wrapper) — add og.jpg (social preview)
 _headers              Cache rules for Netlify / Cloudflare Pages
 ```
