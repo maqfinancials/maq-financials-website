@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get your free Books Review | MAQ Financials</title>
+<meta name="description" content="Six quick questions so we can prepare your free contractor Books Review.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14181C">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/apply.js" defer></script>
+</head>
+<body>
+<div class="apply">
+  <aside class="apply-side grid-bg on-dark">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">M</span><span class="brand-name">MAQ FINANCIALS</span></a>
+    <div>
+      <h2 class="disp">Your free<br><span class="accent">Books Review</span></h2>
+      <p>6 quick questions so we can look at the right things before your call.</p>
+    </div>
+    <ul>
+      <li>Job-cost snapshot on recent jobs</li>
+      <li>Simple WIP schedule</li>
+      <li>Reconciliation health check</li>
+      <li>Prioritized fix-it list</li>
+    </ul>
+    <div class="side-person">
+      <img src="assets/img/talha.svg" width="56" height="56" alt="Talha Qayyum">
+      <div><b>Talha Qayyum</b><span>Reviews every file personally</span></div>
+    </div>
+  </aside>
+
+  <main class="apply-main">
+    <div class="apply-top">
+      <button type="button" class="link-btn" id="back" hidden>← Back</button>
+      <a class="link-btn" id="home" href="./">← Back to page</a>
+      <span id="counter" aria-live="polite">Step 1 of 6</span>
+    </div>
+    <div class="progress" role="progressbar" aria-valuemin="1" aria-valuemax="6" aria-valuenow="1" aria-label="Progress"><span id="bar"></span></div>
+
+    <form id="qualifier" novalidate>
+      <!-- Steps 1–5: one question per screen. Answers auto-advance. -->
+      <section class="q-step" data-step="1" data-key="trade">
+        <p class="kicker">Question 1</p>
+        <h1 class="disp">What kind of work do you do?</h1>
+        <div class="tiles" role="group" aria-label="Type of work">
+          <button type="button" class="tile" aria-pressed="false">General contractor</button>
+          <button type="button" class="tile" aria-pressed="false">Remodeling / renovation</button>
+          <button type="button" class="tile" aria-pressed="false">Roofing</button>
+          <button type="button" class="tile" aria-pressed="false">Electrical</button>
+          <button type="button" class="tile" aria-pressed="false">Plumbing / HVAC</button>
+          <button type="button" class="tile" aria-pressed="false">Concrete / masonry</button>
+          <button type="button" class="tile" aria-pressed="false">Landscaping</button>
+          <button type="button" class="tile" aria-pressed="false">Another trade</button>
+        </div>
+        <p class="hint">Tap an answer to continue.</p>
+      </section>
+
+      <section class="q-step" data-step="2" data-key="revenue" hidden>
+        <p class="kicker">Question 2</p>
+        <h1 class="disp">Roughly what is your annual revenue?</h1>
+        <div class="tiles" role="group" aria-label="Annual revenue">
+          <button type="button" class="tile" aria-pressed="false">Under $250K</button>
+          <button type="button" class="tile" aria-pressed="false">$250K – $500K</button>
+          <button type="button" class="tile" aria-pressed="false">$500K – $1M</button>
+          <button type="button" class="tile" aria-pressed="false">$1M – $3M</button>
+          <button type="button" class="tile" aria-pressed="false">$3M – $10M</button>
+          <button type="button" class="tile" aria-pressed="false">Over $10M</button>
+        </div>
+      </section>
+
+      <section class="q-step" data-step="3" data-key="software" hidden>
+        <p class="kicker">Question 3</p>
+        <h1 class="disp">Where do you keep your books today?</h1>
+        <div class="tiles" role="group" aria-label="Accounting software">
+          <button type="button" class="tile" aria-pressed="false">QuickBooks Online</button>
+          <button type="button" class="tile" aria-pressed="false">QuickBooks Desktop</button>
+          <button type="button" class="tile" aria-pressed="false">Other accounting software</button>
+          <button type="button" class="tile" aria-pressed="false">Spreadsheets / nothing yet</button>
+        </div>
+      </section>
+
+      <section class="q-step" data-step="4" data-key="books_status" hidden>
+        <p class="kicker">Question 4</p>
+        <h1 class="disp">How up to date are your books?</h1>
+        <div class="tiles" role="group" aria-label="How current your books are">
+          <button type="button" class="tile" aria-pressed="false">Current — reconciled monthly</button>
+          <button type="button" class="tile" aria-pressed="false">1–3 months behind</button>
+          <button type="button" class="tile" aria-pressed="false">3–6 months behind</button>
+          <button type="button" class="tile" aria-pressed="false">6+ months / not sure</button>
+        </div>
+      </section>
+
+      <section class="q-step" data-step="5" data-key="biggest_problem" hidden>
+        <p class="kicker">Question 5</p>
+        <h1 class="disp">What is your biggest headache right now?</h1>
+        <div class="tiles" role="group" aria-label="Biggest headache">
+          <button type="button" class="tile" aria-pressed="false">I don't know which jobs make money</button>
+          <button type="button" class="tile" aria-pressed="false">Cash is always tight</button>
+          <button type="button" class="tile" aria-pressed="false">My books are behind</button>
+          <button type="button" class="tile" aria-pressed="false">My bookkeeper is unreliable</button>
+          <button type="button" class="tile" aria-pressed="false">Tax time is a scramble</button>
+          <button type="button" class="tile" aria-pressed="false">I want to grow and need clear numbers</button>
+        </div>
+      </section>
+
+      <section class="q-step" data-step="6" hidden>
+        <p class="kicker">Last step</p>
+        <h1 class="disp" style="margin-bottom:12px">Where should we send your review details?</h1>
+        <p style="color:var(--muted);margin:0 0 28px">You'll pick a call time on the next screen.</p>
+        <div class="notice" id="soft-dq" hidden>Heads up: our monthly plans fit contractors above about $250K a year. You're still welcome to book a call, and we'll send you our free job-costing checklist.</div>
+        <div class="fields">
+          <label class="field">First name<input name="first_name" type="text" autocomplete="given-name" required><span class="field-error" aria-live="polite"></span></label>
+          <label class="field">Company name<input name="company" type="text" autocomplete="organization" required><span class="field-error" aria-live="polite"></span></label>
+          <label class="field">Work email<input name="email" type="email" autocomplete="email" inputmode="email" required><span class="field-error" aria-live="polite"></span></label>
+          <label class="field">Mobile number<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required><span class="field-error" aria-live="polite"></span></label>
+        </div>
+        <label class="hp" aria-hidden="true">Leave empty<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+        <label class="consent"><input name="sms_consent" type="checkbox" value="yes">Text me a reminder before my call. Message rates may apply; reply STOP to opt out.</label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn--shadow-dark btn--block" id="submit">See available call times →</button>
+          <p class="small">We never ask for your QuickBooks password. See our <a href="privacy.html">privacy policy</a>.</p>
+        </div>
+      </section>
+    </form>
+  </main>
+</div>
+</body>
+</html>
