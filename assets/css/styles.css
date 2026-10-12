@@ -80,6 +80,7 @@ button { font: inherit; }
 .portrait { position: relative; padding: 0 0 40px 40px; }
 .portrait-frame { position: absolute; left: 0; top: 28px; right: 28px; bottom: 12px; border: 2px solid var(--accent); }
 .portrait-photo { position: relative; overflow: hidden; background: #2A3137; }
+.portrait-photo picture { display: block; width: 100%; }
 .portrait-photo img { width: 100%; aspect-ratio: 4 / 4.6; object-fit: cover; object-position: 50% 18%; filter: contrast(1.06) saturate(.95); }
 .portrait-caption { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(20,24,28,.86); padding: 14px 18px; }
 .portrait-caption b { display: block; }
@@ -256,6 +257,7 @@ button { font: inherit; }
   .hide-sm { display: none !important; }
   .section { padding: 72px 0; }
   .portrait { padding: 0 0 24px 24px; }
+  .portrait-photo img { aspect-ratio: 400 / 510; object-fit: contain; }
   .sticky-cta { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--ink); padding: 12px 16px; gap: 12px; align-items: center; justify-content: space-between; border-top: 2px solid var(--accent); }
   .sticky-cta span { color: var(--paper); font-size: 14px; font-weight: 700; }
   .sticky-cta a { background: var(--accent); color: var(--ink); text-decoration: none; font-weight: 800; padding: 12px 18px; }
