@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="736" viewBox="0 0 640 736" role="img" aria-labelledby="title desc">
+  <title id="title">Know which jobs make money</title>
+  <desc id="desc">A bookkeeping dashboard showing job costs, gross margins, and a profitable job summary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#232B32"/>
+      <stop offset="1" stop-color="#111519"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="640" height="736" fill="url(#bg)"/>
+  <rect width="640" height="736" fill="url(#grid)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="54" width="532" height="622" rx="8" fill="#F8F7F2"/>
+    <path d="M62 54h516a8 8 0 0 1 8 8v60H54V62a8 8 0 0 1 8-8Z" fill="#14181C"/>
+    <rect x="78" y="80" width="26" height="26" rx="4" fill="#F5B700"/>
+    <path d="M85 93h12M91 87v12" stroke="#14181C" stroke-width="3" stroke-linecap="round"/>
+    <text x="118" y="91" fill="#F4F1EA" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.5">JOB COSTING SNAPSHOT</text>
+    <text x="118" y="108" fill="#A9B1B8" font-family="Arial,sans-serif" font-size="11">MONTHLY BOOKKEEPING · SAMPLE VIEW</text>
+    <circle cx="548" cy="93" r="4" fill="#F5B700"/>
+
+    <text x="82" y="164" fill="#6B7279" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.1">YOUR JOBS, CLEARLY COSTED</text>
+    <text x="82" y="201" fill="#14181C" font-family="Arial,sans-serif" font-size="28" font-weight="700">Know what you keep.</text>
+    <text x="82" y="225" fill="#6B7279" font-family="Arial,sans-serif" font-size="14">Revenue, costs and margin — in one simple view.</text>
+
+    <rect x="82" y="252" width="476" height="90" rx="5" fill="#FFF4CC"/>
+    <text x="102" y="279" fill="#6B5A2C" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing=".8">TOTAL GROSS PROFIT · EXAMPLE</text>
+    <text x="102" y="320" fill="#14181C" font-family="Arial,sans-serif" font-size="35" font-weight="700">$9,450</text>
+    <g transform="translate(427 270)">
+      <rect x="0" y="40" width="17" height="16" rx="2" fill="#E6A900"/>
+      <rect x="25" y="27" width="17" height="29" rx="2" fill="#E6A900"/>
+      <rect x="50" y="12" width="17" height="44" rx="2" fill="#E6A900"/>
+      <rect x="75" y="0" width="17" height="56" rx="2" fill="#E6A900"/>
+    </g>
+
+    <text x="82" y="380" fill="#6B7279" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">RECENT JOBS</text>
+    <rect x="82" y="398" width="476" height="42" rx="3" fill="#ECEAE3"/>
+    <text x="98" y="424" fill="#6B7279" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".6">JOB</text>
+    <text x="358" y="424" fill="#6B7279" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".6">COSTS</text>
+    <text x="477" y="424" fill="#6B7279" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".6">MARGIN</text>
+
+    <g font-family="Arial,sans-serif">
+      <rect x="82" y="440" width="476" height="56" fill="#fff"/>
+      <text x="98" y="465" fill="#14181C" font-size="13" font-weight="700">Kitchen remodel</text>
+      <text x="98" y="483" fill="#6B7279" font-size="11">Labor · materials · subs</text>
+      <text x="358" y="474" fill="#333C44" font-size="13">$31,600</text>
+      <rect x="474" y="455" width="67" height="27" rx="13" fill="#DDF2E5"/>
+      <text x="507.5" y="473" fill="#165C3B" font-size="12" font-weight="700" text-anchor="middle">26%</text>
+      <path d="M82 496h476" stroke="#E2DDD1"/>
+
+      <rect x="82" y="497" width="476" height="56" fill="#fff"/>
+      <text x="98" y="522" fill="#14181C" font-size="13" font-weight="700">Deck build</text>
+      <text x="98" y="540" fill="#6B7279" font-size="11">Labor · materials · subs</text>
+      <text x="358" y="531" fill="#333C44" font-size="13">$12,850</text>
+      <rect x="474" y="512" width="67" height="27" rx="13" fill="#DDF2E5"/>
+      <text x="507.5" y="530" fill="#165C3B" font-size="12" font-weight="700" text-anchor="middle">24%</text>
+      <path d="M82 553h476" stroke="#E2DDD1"/>
+
+      <rect x="82" y="554" width="476" height="56" fill="#fff"/>
+      <text x="98" y="579" fill="#14181C" font-size="13" font-weight="700">Roof replacement</text>
+      <text x="98" y="597" fill="#6B7279" font-size="11">Labor · materials · subs</text>
+      <text x="358" y="588" fill="#333C44" font-size="13">$18,200</text>
+      <rect x="474" y="569" width="67" height="27" rx="13" fill="#FCE8E4"/>
+      <text x="507.5" y="587" fill="#9B3325" font-size="12" font-weight="700" text-anchor="middle">−8%</text>
+    </g>
+
+    <path d="M82 628h476" stroke="#E2DDD1"/>
+    <circle cx="91" cy="648" r="5" fill="#F5B700"/>
+    <text x="105" y="652" fill="#6B7279" font-family="Arial,sans-serif" font-size="11">Illustrative example · Your numbers come from your books</text>
+  </g>
+</svg>
