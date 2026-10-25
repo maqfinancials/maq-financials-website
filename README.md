@@ -1,6 +1,6 @@
-# MAQfinancials website prototype
+# MAQfinancials website
 
-A static, multi-page website concept for MAQfinancials and U.S. small businesses. It uses plain HTML, CSS, and vanilla JavaScript with no build step.
+A static, multi-page website for MAQfinancials and U.S. small businesses. It uses plain HTML, CSS, and vanilla JavaScript with no build step.
 
 ## Pages
 
@@ -8,17 +8,20 @@ A static, multi-page website concept for MAQfinancials and U.S. small businesses
 - `services.html` — service overview
 - `pricing.html` — starting prices and scope notes
 - `about.html` — service approach
-- `contact.html` — contact details and a visual form prototype
+- `contact.html` — inquiry form and contact details
 - `resources.html` — planned resource topics
-- `privacy.html` — privacy notice draft
+- `privacy.html` — working notice for contact form data
 
-## Before publishing
+## Contact form
 
-- Confirm the legal business name, brand usage, service scope, contact details, and all page copy.
-- The pricing page uses the starting prices from the supplied pricing draft. Confirm profitability, scope, and terms before publishing.
-- The contact form is a demo and does not transmit or store inquiries. Connect it to a secure service before launch.
-- Review and replace the privacy notice based on actual data practices.
-- Add only verified business, biography, credentials, testimonials, and claims.
-- Review hosting, domain, accessibility, SEO, and performance before launch.
+The contact form submits to FormSubmit, which forwards inquiries to `consulting@talhaqayyum.com`. FormSubmit requires the recipient to activate the form after its first submission. It states that submissions may be retained for up to 30 days. See the privacy notice and review FormSubmit's current terms before relying on the service.
 
-The prototype can be previewed by opening `index.html` in a modern browser. It is not a WordPress theme and has no server-side form handling.
+## Before publishing or expanding collection
+
+- Confirm the legal business name and full privacy practices.
+- Confirm the pricing scope and terms before publication.
+- Do not request sensitive financial information through the inquiry form.
+- Add only verified biography, credentials, testimonials, and claims.
+- Review hosting, domain, accessibility, SEO, and performance.
+
+The site can be previewed by opening `index.html` in a modern browser. It is not a WordPress theme.
