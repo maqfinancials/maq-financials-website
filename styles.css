@@ -100,3 +100,7 @@
   .footer-contact-strip{justify-content:center!important;text-align:center;align-items:center;gap:8px 18px!important;padding:12px 0!important}
   .footer-bottom{gap:5px;padding-top:12px}
 }
+
+/* Left-align footer contact details for a calmer layout */
+.footer-contact-strip{justify-content:flex-start!important;gap:10px 30px!important}
+@media(max-width:700px){.footer-contact-strip{justify-content:flex-start!important;align-items:flex-start!important;text-align:left;gap:8px 22px!important}}
