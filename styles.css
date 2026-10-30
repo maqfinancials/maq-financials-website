@@ -81,3 +81,7 @@
 @media(max-width:700px){.footer-bottom{margin-top:0}}
 .footer-grid>div>p:last-of-type{margin-bottom:0}
 .footer-grid>div:first-child>p:last-of-type{margin-top:12px}
+.testimonial-card{display:flex;flex-direction:column;min-height:100%}
+.testimonial-quote{font-size:1rem;line-height:1.65;color:var(--ink);margin:0 0 18px;flex:1}
+.testimonial-attribution{border-top:1px solid var(--line);padding-top:14px;color:var(--navy);display:flex;flex-direction:column;gap:3px}
+.testimonial-attribution span{color:var(--muted);font-size:.88rem}
