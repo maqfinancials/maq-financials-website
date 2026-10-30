@@ -118,3 +118,9 @@
 /* Center the footer contact row on laptop and desktop */
 .footer-contact-strip{display:flex!important;justify-content:center!important;align-items:center!important;gap:10px 32px!important;text-align:center}
 @media(max-width:700px){.footer-contact-strip{display:flex!important;justify-content:flex-start!important;align-items:flex-start!important;text-align:left;gap:8px!important}}
+
+/* Consistent icons for footer contact details */
+.footer-contact-strip a{display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
+.footer-contact-icon{width:20px;height:20px;flex:0 0 20px;display:inline-grid;place-items:center;color:#68d5cc}
+.footer-contact-icon svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:700px){.footer-contact-strip a{white-space:normal}}
