@@ -104,3 +104,13 @@
 /* Left-align footer contact details for a calmer layout */
 .footer-contact-strip{justify-content:flex-start!important;gap:10px 30px!important}
 @media(max-width:700px){.footer-contact-strip{justify-content:flex-start!important;align-items:flex-start!important;text-align:left;gap:8px 22px!important}}
+
+/* Give each footer contact detail its own balanced position */
+.footer-contact-strip{display:grid!important;grid-template-columns:1.35fr 1fr 1fr;align-items:center;justify-content:stretch!important;gap:10px 24px!important}
+.footer-contact-strip a:nth-child(1){justify-self:start}
+.footer-contact-strip a:nth-child(2){justify-self:center}
+.footer-contact-strip a:nth-child(3){justify-self:end}
+@media(max-width:700px){
+ .footer-contact-strip{grid-template-columns:1fr;justify-items:start;gap:8px!important;text-align:left!important;padding:12px 0!important}
+ .footer-contact-strip a:nth-child(1),.footer-contact-strip a:nth-child(2),.footer-contact-strip a:nth-child(3){justify-self:start}
+}
