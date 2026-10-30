@@ -72,3 +72,9 @@
   .dash-top{font-size:.84rem}
   .float-note{font-size:.69rem}
 }
+/* Keep footer content and divider spacing consistent */
+.footer-grid{padding-bottom:18px}
+.footer-grid>div{display:flex;flex-direction:column}
+.footer-grid>div>p:last-of-type,.footer-grid>div>.textlink,.footer-links{margin-top:auto}
+.footer-bottom{margin-top:0}
+@media(max-width:700px){.footer-bottom{margin-top:0}}
