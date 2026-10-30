@@ -114,3 +114,7 @@
  .footer-contact-strip{grid-template-columns:1fr;justify-items:start;gap:8px!important;text-align:left!important;padding:12px 0!important}
  .footer-contact-strip a:nth-child(1),.footer-contact-strip a:nth-child(2),.footer-contact-strip a:nth-child(3){justify-self:start}
 }
+
+/* Center the footer contact row on laptop and desktop */
+.footer-contact-strip{display:flex!important;justify-content:center!important;align-items:center!important;gap:10px 32px!important;text-align:center}
+@media(max-width:700px){.footer-contact-strip{display:flex!important;justify-content:flex-start!important;align-items:flex-start!important;text-align:left;gap:8px!important}}
