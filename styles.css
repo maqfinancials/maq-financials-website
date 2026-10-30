@@ -154,8 +154,3 @@
  .cta{padding:28px 22px;gap:22px}
  .footer-grid{gap:26px 18px}
 }
-
-/* Readable monthly service benefit list */
-.service-points{margin:14px 0 0;padding-left:20px;display:grid;gap:9px}
-.service-points li{padding-left:3px}
-@media(max-width:700px){.service-points{gap:11px;line-height:1.6}}
